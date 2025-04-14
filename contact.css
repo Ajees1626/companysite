@@ -1,0 +1,104 @@
+.inquiry-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px;
+    background: #f2f2f2;
+  }
+  
+  .map-container {
+    flex: 1 1 500px;
+    min-height: 500px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .form-container {
+    flex: 1 1 500px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+  .form-container h2::before,
+  .form-container h2::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background: #AD2126;
+    vertical-align: middle;
+    margin: 0 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .phone-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .phone-group select {
+    width: 80px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button {
+    background-color: #AD2126;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 120px;
+    align-self: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #CE685A;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .inquiry-section {
+      flex-direction: column;
+    }
+  
+    .form-container h2::before,
+    .form-container h2::after {
+      width: 30px;
+    }
+  }

@@ -1,0 +1,155 @@
+.about-why-choose-us {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .about-why-choose-us h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about-why-choose-us p {
+    margin: 10px 0;
+    font-size: 12px;
+  }
+  
+  .about-highlight {
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .about-text {
+    flex: 1 1 60%;
+    padding-right: 20px;
+  }
+  
+  .about-image {
+    flex: 1 1 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .about-image {
+      margin-top: 20px;
+    }
+  
+    .about-image img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  /* how we work  */
+
+  .about-how-we-work {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fdfdfd;
+  }
+  
+  .about-how-we-work h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .about-how-we-work h2::before,
+  .about-how-we-work h2::after {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background: #CE685A;
+    vertical-align: middle;
+    margin: 0 10px;
+  }
+  
+  .steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+  }
+  
+  .step {
+    flex: 1 1 280px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    text-align: left;
+  }
+  
+  .step .number {
+    background: #CE685A;
+    color: #fff;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-highlight-text {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-highlight-text h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .cta {
+    background: #AD2126;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .cta h2 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .steps {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }

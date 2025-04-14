@@ -24,8 +24,6 @@
     height: 100px;
     padding: 10px 20px;
     background: #AD2126;
-    background: linear-gradient(150deg, rgba(173, 33, 38, 1) 0%, rgba(206, 104, 90, 1) 55%);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
   }
@@ -397,7 +395,7 @@ z-index: -1;
 }
 .line{
   width: 1px;
-  background-color: #CE685A;
+  background-color: #AD2126;
   height: 400px;
 }
 .profile-letter{
@@ -716,8 +714,7 @@ z-index: -1;
 
 .questions-section {
   background: #AD2126;
-  background: linear-gradient(100deg, rgba(173, 33, 38, 1) 0%, rgba(206, 104, 90, 1) 66%);
-  color: white;
+   color: white;
   text-align: center;
   padding: 80px 20px;
 }
