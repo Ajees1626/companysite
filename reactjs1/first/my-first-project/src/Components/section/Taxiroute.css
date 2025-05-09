@@ -1,0 +1,68 @@
+.container-1 {
+  background-color: orange;
+    padding: 50px 50px;
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  
+  .taxiColumn {
+    min-width: 200px;
+    margin-bottom: 30px;
+  }
+  
+  .columnHeading {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .listItem {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+@media (max-width: 1024px) {
+  .grid {
+    gap: 60px;
+  }
+
+  .columnHeading {
+    font-size: 42px;
+  }
+
+  .listItem {
+    font-size: 27px;
+  }
+}
+
+/* Mobiles (max-width: 600px) */
+@media (max-width: 600px) {
+  .container-1 {
+    padding: 30px 20px;
+  }
+
+  .grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .columnHeading {
+    font-size: 30px;
+    text-align: left;
+  }
+
+  .listItem {
+    font-size: 22px;
+    text-align: left;
+  }
+}

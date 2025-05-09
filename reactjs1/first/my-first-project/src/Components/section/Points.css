@@ -1,0 +1,84 @@
+.points-section {
+    background-image: url('/back1.jpeg');
+    text-align: left;
+    color: #1f2d66;
+  }
+  
+  .container {
+    height: 80vh;
+    padding: 10px 150px;
+    background-color: rgba(255, 255, 255, 0.368);
+  }
+  
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding-top: 10px;
+     
+  }
+  
+  .text {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .rules-list {
+    list-style: square;
+    line-height: 1.6;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 19px;
+    color: #ffffff;
+    padding-left: 20px;
+  }
+  
+  @media (max-width: 1024px) {
+  .container {
+    padding: 20px 60px;
+    height: auto;
+  }
+
+  .title {
+    font-size: 52px;
+  }
+
+  .subtitle {
+    font-size: 32px;
+  }
+
+  .text,
+  .rules-list {
+    font-size: 20px;
+  }
+}
+
+/* Mobiles (max-width: 600px) */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+    height: auto;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  .rules-list {
+    font-size: 16px;
+    padding-left: 15px;
+  }
+}

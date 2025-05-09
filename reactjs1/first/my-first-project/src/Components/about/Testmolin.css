@@ -1,0 +1,128 @@
+.testimonials {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .testimonials h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: orange;
+    margin-bottom: 40px;
+  }
+  
+  .testimonials-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial-card {
+    background: #fff;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    text-align: left;
+  }
+  
+  .testimonial-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .avatar-quote {
+    display: flex;
+    align-items: center;
+    color: #243c84;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .quote-icon {
+    font-size: 28px;
+    margin-right: 5px;
+  }
+  
+  .location {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .stars {
+    color: #f7c948;
+    margin-bottom: 10px;
+  }
+  
+  .star-icon {
+    font-size: 16px;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .review-button {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .review-button:hover {
+    background-color: rgb(245, 181, 61);
+  }
+  
+@media (max-width: 1024px) {
+  .testimonials h2 {
+    font-size: 60px;
+  }
+
+  .testimonial-card {
+    max-width: 250px;
+  }
+
+  .review-text {
+    font-size: 15px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+  .testimonials {
+    padding: 40px 15px;
+  }
+
+  .testimonials h2 {
+    font-size: 26px;
+  }
+
+  .testimonial-card {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .avatar-quote {
+    font-size: 16px;
+  }
+
+  .quote-icon {
+    font-size: 24px;
+  }
+
+  .review-button {
+    padding: 14px 28px;
+    font-size: 14px;
+  }
+}

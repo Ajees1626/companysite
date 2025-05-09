@@ -1,0 +1,143 @@
+ 
+.home {
+    display: flex;
+     background-image: url('/city2.jpeg');
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    background-color: #fdf8ea;
+    position: relative;
+    height: 50vh;
+  }
+  
+  .slider-content {
+    max-width: 1500px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .slider-content h1 {
+    font-size: 62px;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .slider-content p {
+    background-color: #ffaa00b3;
+    padding: 10px;
+    border-radius: 40px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 2rem;
+  }
+  .slider-content p:hover {
+    background-color: #ffaa00;
+    padding: 10px;
+    border-radius: 40px;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 2rem;
+  }
+  
+  
+  .slider-btn {
+    background-color: orange;
+    border: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .slider-btn:hover {
+    background-color: rgba(255, 166, 0, 0.268);
+  }
+  
+  .nav-arrow {
+    position: absolute;
+    background-color: #f2f6f842;
+    border-radius: 20%;
+    padding: 1rem;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .nav-arrow.left {
+    left: 2rem;
+  }
+  
+  .nav-arrow.right {
+    right: 2rem;
+  }
+  
+  .nav-arrow svg {
+    font-size: 1.2rem;
+    color: #d8dbdb;
+  }
+  
+  @media (max-width: 1024px) {
+  .slider-content h1 {
+    font-size: 88px;
+  }
+
+  .slider-content p {
+     margin-top: 70px;
+    font-size: 40px;
+    padding: 8px 16px;
+  }
+
+  .slider-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 26px;
+  }
+
+  .nav-arrow {
+    padding: 0.8rem;
+  }
+}
+
+/* Mobiles (up to 600px) */
+@media (max-width: 600px) {
+  .home {
+    flex-direction: column;
+    height: auto;
+   
+  }
+
+  .slider-content h1 {
+    font-size: 32px;
+  }
+
+  .slider-content p {
+    font-size: 16px;
+  }
+
+  .slider-btn {
+    
+    font-size: 14px;
+  }
+
+  .nav-arrow {
+    padding: 0.6rem;
+    top: auto;
+    bottom: 10px;
+    transform: none;
+  }
+
+  .nav-arrow.left {
+    left: 20px;
+  }
+
+  .nav-arrow.right {
+    right: 20px;
+  }
+
+  .nav-arrow svg {
+    font-size: 18px;
+  }
+}
