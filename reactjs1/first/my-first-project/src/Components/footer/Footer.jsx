@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-top">
         <img
-          src="/logo.png"
+          src="images/logo.png"
           alt="Chennai Drop Taxi"
           className="footer-logo"
         />

@@ -34,7 +34,7 @@ const ServiceIntro = () => {
         </p>
       </div>
       <div className="intro-image">
-        <img src='/about1.jpeg' alt="Order ride illustration" />
+        <img src='images/about1.jpeg' alt="Order ride illustration" />
       </div>
     </div>
   );

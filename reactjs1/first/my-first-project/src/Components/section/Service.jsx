@@ -4,19 +4,19 @@ import './Service.css';
 const services = [
   {
     title: 'One Way Taxi',
-    image: 'ser1.jpeg', // Replace with your actual image path
+    image: 'images/ser1.jpeg', // Replace with your actual image path
   },
   {
     title: 'Airport Taxi',
-    image: 'ser2.jpg',
+    image: 'images/ser2.jpg',
   },
   {
     title: 'Outstation Taxi',
-    image: 'ser3.jpg',
+    image: 'images/ser3.jpg',
   },
   {
     title: 'Drop Taxi',
-    image: ' ser4.jpg',
+    image: 'images/ser4.jpg',
   },
 ];
 

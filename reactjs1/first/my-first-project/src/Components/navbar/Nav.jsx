@@ -7,7 +7,7 @@ const nav = () => {
 
   return (
     <nav className="navbar">
-      <img src="/logo.png" alt="Chennai Drop Taxi" className="footer-logo" />
+      <img src="images/logo.png" alt="Chennai Drop Taxi" className="footer-logo" />
 
       <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
         {menuOpen ? '✖' : '☰'}

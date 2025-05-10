@@ -5,42 +5,42 @@ const cities = [
   {
     name: 'Delhi',
     state: 'Tamilnadu',
-    image: 'city1.jpeg'
+    image: 'images/city1.jpeg'
   },
   {
     name: 'Ooty',
     state: 'Tamilnadu',
-    image: 'city2.jpeg'
+    image: 'images/city2.jpeg'
   },
   {
     name: 'Kerala',
     state: 'Karnataka',
-    image: 'city3.jpeg'
+    image: 'images/city3.jpeg'
   },
   {
     name: 'Bangalore',
     state: 'Tamilnadu',
-    image: 'city4.jpeg'
+    image: 'images/city4.jpeg'
   },
   {
     name: 'Andaman',
     state: 'Tamilnadu',
-    image: 'city5.jpeg'
+    image: 'images/city5.jpeg'
   },
   {
     name: 'Ladakh',
     state: 'Tamilnadu',
-    image: 'city6.jpeg'
+    image: 'images/city6.jpeg'
   },
   {
     name: 'Taj Mahal',
     state: 'Tamilnadu',
-    image: 'city7.jpeg'
+    image: 'images/city7.jpeg'
   },
   {
     name: 'Thanjavur',
     state: 'Tamilnadu',
-    image: 'city8.jpeg'
+    image: 'images/city8.jpeg'
   }
 ];
 

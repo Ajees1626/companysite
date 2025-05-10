@@ -5,15 +5,15 @@ import './Process.css';
 const steps = [
   {
     title: 'Download',
-    image: '/ver2.jpg',
+    image: 'images/ver2.jpg',
   },
   {
     title: 'Check Fare',
-    image: '/ver3.jpg'
+    image: 'images/ver3.jpg'
   },
   {
     title: 'Confirm',
-    image: '/ver1.jpg',
+    image: 'images/ver1.jpg',
   }
 ];
 

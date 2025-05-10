@@ -19,19 +19,19 @@ const slides = [
     title: "Your safety is our concern!",
     description: "Practising all the precautions stated by the law.",
     buttonText: "Book now!",
-    image: "/back.jpeg", // Image path from public folder
+    image: "images/back.jpeg", // Image path from public folder
   },
   {
     title: "Reliable & On-Time!",
     description: "We ensure timely pickups and smooth transportation every time.",
     buttonText: "Book a Ride",
-    image: "/back1.jpeg",
+    image: "images/back1.jpeg",
   },
   {
     title: "Affordable & Transparent",
     description: "No hidden charges. Clear pricing and great value rides.",
     buttonText: "Check Pricing",
-    image: "/back2.jpg",
+    image: "images/back2.jpg",
   }
 ];
 

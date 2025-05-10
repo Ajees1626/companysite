@@ -6,7 +6,7 @@ import './Carimg.css';
 const tariffs = [
   {
     name: 'SEDAN',
-    image: '/car.png',
+    image: 'images/car.png',
     fare: {
       oneWay: '14/KM',
       roundTrip: '13/KM',
@@ -15,7 +15,7 @@ const tariffs = [
   },
   {
     name: 'ETIOS',
-    image: '/car1.png', // Replace with your actual path
+    image: 'images/car1.png', // Replace with your actual path
     fare: {
       oneWay: '14/KM',
       roundTrip: '13/KM',
@@ -24,7 +24,7 @@ const tariffs = [
   },
   {
     name: 'SUV',
-    image: '/car2.png', // Replace with your actual path
+    image: 'images/car2.png', // Replace with your actual path
     fare: {
       oneWay: '19/KM',
       roundTrip: '18/KM',
@@ -33,7 +33,7 @@ const tariffs = [
   },
   {
     name: 'SUV',
-    image: '/car3.png', // Replace with your actual path
+    image: 'images/car3.png', // Replace with your actual path
     fare: {
       oneWay: '19/KM',
       roundTrip: '18/KM',
@@ -42,7 +42,7 @@ const tariffs = [
   },
   {
     name: 'SUV',
-    image: '/car4.png', // Replace with your actual path
+    image: 'images/car4.png', // Replace with your actual path
     fare: {
       oneWay: '19/KM',
       roundTrip: '18/KM',
@@ -51,7 +51,7 @@ const tariffs = [
   },
   {
     name: 'SUV',
-    image: '/car5.png', // Replace with your actual path
+    image: 'images/car5.png', // Replace with your actual path
     fare: {
       oneWay: '19/KM',
       roundTrip: '18/KM',
