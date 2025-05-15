@@ -1,10 +1,17 @@
-const togglebtn = document.querySelector('.toggle-btn')
-const toggleicon = document.querySelector('.toggle-btn i')
-const dropmenu = document.querySelector('.drop-menu')
+  const togglebtn = document.querySelector('.toggle-btn');
+  const dropmenu = document.querySelector('.drop-menu');
+  const dropLinks = document.querySelectorAll('.drop-menu a');
 
-togglebtn.onclick = function(){
-    dropmenu.classList.toggle('open')
-}
+  togglebtn.onclick = function () {
+    dropmenu.classList.toggle('open');
+  };
+
+  // Close drop-menu after clicking a menu item
+  dropLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      dropmenu.classList.remove('open');
+    });
+  });
 
 
 // project scroll function
