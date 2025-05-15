@@ -111,7 +111,7 @@ a:hover{
     .navbar {
         margin: 30px 17%;
         height:60px;
-        padding: 1rem;
+        padding: 0px;
         background-color:  #EABE7B;
         border-radius: 1rem;
         animation: navload 0.5s ease ;
@@ -194,7 +194,7 @@ main{
 .container2{
     background-color: black;
     color: white;
-    height: 100vh;
+    height: 110vh;
     overflow-x: hidden;
     overflow: hidden;
     
@@ -220,7 +220,7 @@ main{
 @media screen and (max-width:750px) {
     .container2 h1{
         font-size: 60px;
-        padding-left: 15px;
+        padding-left: 0px;
     }
 }
 
@@ -339,7 +339,7 @@ main{
         height: 350px;        
     } */
      .aboutletter {
-        margin: 10px;
+        
         width: 100%;
         height: 450px;
         text-align: center;
@@ -436,7 +436,7 @@ h2 {
         flex-direction: column;
         align-items: left;
         width: 100%;
-        padding: 50px;
+        padding-top: 50px;
         overflow-x: hidden;
         overflow: hidden;
     }
