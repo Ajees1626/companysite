@@ -110,11 +110,14 @@ a:hover{
     }
     .navbar {
         margin: 30px 17%;
-        height:60px;
+        width: 600px;
+        height:80px;
         padding: 0px;
         background-color:  #EABE7B;
         border-radius: 1rem;
         animation: navload 0.5s ease ;
+        justify-content: space-around;
+        align-items: center;
     }
     .toggle-btn{
         display: none;
@@ -123,7 +126,10 @@ a:hover{
     }
     .nav-bar-links {
         display: flex;
-        gap: 10px;
+        gap: 20px;
+        padding-top: 20px;
+        text-align: center;
+        padding-left: 10px;
     }
 }
 
@@ -216,11 +222,18 @@ main{
     -webkit-text-fill-color: transparent;
     
 }
+ 
 
 @media screen and (max-width:750px) {
+    .container2{
+     
+    height: 110vh;
+    
+    }
     .container2 h1{
         font-size: 60px;
         padding-left: 0px;
+
     }
 }
 
@@ -372,6 +385,7 @@ main{
     margin: auto;
     overflow-x: hidden;
     overflow: hidden;
+    height: 100vh;
 }
 .section1 {
     width: 48%;
