@@ -200,7 +200,7 @@ main{
 .container2{
     background-color: black;
     color: white;
-    height: 110vh;
+    height: auto;
     overflow-x: hidden;
     overflow: hidden;
     
@@ -450,6 +450,7 @@ h2 {
         flex-direction: column;
         align-items: left;
         width: 100%;
+        height: auto;
         padding-top: 50px;
         overflow-x: hidden;
         overflow: hidden;
